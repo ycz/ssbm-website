@@ -38,6 +38,7 @@
             };
             colorArea.addEventListener("mousemove", function(event) {
                 if (changing) {
+                    // Change hue / luminance
                     color.h = event.clientX / 3;
                     color.l = parseInt(100 * event.clientY / colorArea.clientHeight);
                     setColor(color);
@@ -46,6 +47,7 @@
 
             colorArea.addEventListener("wheel", function(event) {
                 if (changing) {
+                    // Change saturation
                     color.s = Math.min(Math.max(color.s - event.deltaY / 10, 0), 100);
                     setColor(color);
                 }
