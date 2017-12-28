@@ -11,6 +11,8 @@ const PROPERTY_ALIAS_MAP = {
   'Total Frames': 'Total',
   'Active': 'Hit',
 };
+const TABLE_MOVE_PROPERTIES = ['Move', 'Total Frames', 'Active', 'IASA', 'Shield stun',
+  'Advantage', 'Damage']
 
 class MoveDataModal extends Component {
   close() {
@@ -88,12 +90,11 @@ class FrameTableRow extends Component {
 class FrameTable extends Component {
   constructor(props) {
     super(props);
-    this.displayedMoveProperties = ['Move', 'Total Frames', 'Active', 'Damage'];
     this.state = { showModal: false };
   }
 
   getHeaderRow() {
-    let headerCells = this.displayedMoveProperties.map(function(property) {
+    let headerCells = TABLE_MOVE_PROPERTIES.map(function(property) {
       return <th className="frame-table-header-cell" key={property}>{property}</th>
     });
     return <tr>{headerCells}</tr>;
@@ -107,7 +108,7 @@ class FrameTable extends Component {
   }
 
   getTableRows() {
-    let moveProperties = this.displayedMoveProperties;
+    let moveProperties = TABLE_MOVE_PROPERTIES;
     let openModal = this.openModal.bind(this);
     return this.props.data.map((move) => <FrameTableRow 
         key={move.Move}
