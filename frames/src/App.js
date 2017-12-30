@@ -3,7 +3,7 @@ import './App.css';
 
 import { Button, ListGroup, ListGroupItem, Modal, Table } from 'react-bootstrap';
 
-import frameData from './data/samus.json'
+import frameData from './data/frame_data.json'
 // console.log(frameData)
 let _ = require('lodash');
 
@@ -67,10 +67,10 @@ class MoveDataModal extends Component {
 
 class FrameTableRow extends Component {
   getRowEntries() {
-    let frameData = this.props.data;
+    let moveData = this.props.data;
     return this.props.moveProperties.map(function(property) {
-      let propertyValue = frameData[property] ||
-        frameData[PROPERTY_ALIAS_MAP[property]] ||
+      let propertyValue = moveData[property] ||
+        moveData[PROPERTY_ALIAS_MAP[property]] ||
         '--';
       return <td key={property}>{propertyValue}</td>;
     });
@@ -148,7 +148,7 @@ class App extends Component {
         <div className="container">
           <h3>Samus Frame Data</h3>
           <h4>Click on a row for more information.</h4>
-          <FrameTable data={frameData}/>
+          <FrameTable data={frameData['Samus']}/>
         </div>
       </div>
     );
