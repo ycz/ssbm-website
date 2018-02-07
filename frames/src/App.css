@@ -24,8 +24,6 @@
 
 .move-modal-body {
   display: flex;
-}
-
-.move-image {
   align-items: center;
+  justify-content: center;
 }
