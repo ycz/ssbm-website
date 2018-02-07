@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { Button, ListGroup, ListGroupItem, Modal, Table } from 'react-bootstrap';
+import { Button, Modal, Table } from 'react-bootstrap';
 
 import frameData from './data/frame_data.json'
 // console.log(frameData)
@@ -35,10 +35,9 @@ class MoveDataModal extends Component {
   }
 
   renderProperties(data) {
-    let renderProperties = this.renderProperties.bind(this);
     let renderPropertyValue = this.renderPropertyValue.bind(this);
     return _.map(data, function(propValue, propName) {
-      if (propName == 'Move' || propName == 'Image') {
+      if (propName === 'Move' || propName === 'Image') {
         return;
       }
       return <li key={propName}>{renderPropertyValue(propName, propValue)}</li>;
@@ -54,8 +53,8 @@ class MoveDataModal extends Component {
         <Modal.Title>{this.props.data.Move}</Modal.Title>
       </Modal.Header>
       <Modal.Body className="move-modal-body">
-        {this.props.data['Image'] &&
-          <img className="move-image" src={this.props.data['Image']}/>
+        {this.props.data.Image &&
+          <img className="move-image" src={this.props.data.Image} alt={this.props.data.Move}/>
         }
         <ul>
           {this.renderProperties(this.props.data)}
