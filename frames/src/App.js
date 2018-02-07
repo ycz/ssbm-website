@@ -138,13 +138,19 @@ class FrameTable extends Component {
   }
 }
 
+const MyHeader = () => {
+  return (
+    <header className="app-header">
+      <h1 className="app-title"><a href="/">SSBM Website</a></h1>
+    </header>
+  )
+}
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">SSBM Website</h1>
-        </header>
+        <MyHeader />
         <div className="container">
           <h3>Samus Frame Data</h3>
           <h4>Click on a row for more information.</h4>

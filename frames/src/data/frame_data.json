@@ -212,10 +212,10 @@
     },
     {
       "Move": "Air Grapple",
-      "Hit": "10-28 (one hitbox on the end of\nthe grapple, another on Samus' arm)",
+      "Hit": "10-28",
       "Total": "60",
       "Grab a wall": "9-29",
-      "Jumping from grabbing": "1-11 (depends\non how far you are from the point of\ngrapple, and whether you're dangling)",
+      "Jumping from grabbing": "1-11 (depends on how far you are from the point of grapple, and whether you're dangling)",
       "Landlag": "30",
       "Ladfallspeciallag": "4",
       "Damage": 4

@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header {
+.app-header {
   background-color: #222;
   padding: 20px;
   color: white;
@@ -16,4 +16,8 @@
 
 .frame-table-row {
   cursor: pointer;
+}
+
+.app-title a {
+  color: lightgrey;
 }
