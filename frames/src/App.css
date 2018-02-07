@@ -21,3 +21,11 @@
 .app-title a {
   color: lightgrey;
 }
+
+.move-modal-body {
+  display: flex;
+}
+
+.move-image {
+  align-items: center;
+}

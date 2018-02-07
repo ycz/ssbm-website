@@ -10,7 +10,8 @@
       "Swing advantage": "-6",
       "Window of the swing": "3-25",
       "Swing starts": "12",
-      "Damage": 3
+      "Damage": 3,
+      "Image": "http://i.imgur.com/BAEfE.gif"
     },
     {
       "Move": "Swing (Jab2)",
@@ -19,7 +20,8 @@
       "Hit lag": "4",
       "Shield stun": "8",
       "Advantage": "-20",
-      "Damage": 7
+      "Damage": 7,
+      "Image": "http://i.imgur.com/y7x6B.gif"
     },
     {
       "Move": "F Tilt",
@@ -29,7 +31,8 @@
       "Hit lag": "5",
       "Shield stun": "11",
       "Advantage": "-17 or -18",
-      "Damage": 10
+      "Damage": 10,
+      "Image": "http://i.imgur.com/fPVoL.gif"
     },
     {
       "Move": "D Tilt",
@@ -38,7 +41,8 @@
       "Hit lag": "6",
       "Shield stun": "14",
       "Advantage": "-25",
-      "Damage": 14
+      "Damage": 14,
+      "Image": "http://i.imgur.com/8Qbpe.gif"
     },
     {
       "Move": "U Tilt",
@@ -48,7 +52,8 @@
       "Hit lag": "6",
       "Shield stun": "13",
       "Advantage": "-13 to -10",
-      "Damage": 13
+      "Damage": 13,
+      "Image": "http://i.imgur.com/AiXqv.gif"
     },
     {
       "Move": "Dash attack",
@@ -58,7 +63,8 @@
       "Hit lag": "6 (or 5)",
       "Shield stun": "13 (or 11)",
       "Advantage": "-23 to -14",
-      "Damage": 13
+      "Damage": 13,
+      "Image": "http://i.imgur.com/Jw4fZ.gif"
     },
     {
       "Move": "F Smash",
@@ -69,7 +75,8 @@
       "Shield stun": "14",
       "Advantage": "-25",
       "Damage": 14,
-      "Damage (fully charged)": 19
+      "Damage (fully charged)": 19,
+      "Image": "http://i.imgur.com/ONYEW.gif"
     },
     {
       "Move": "U Smash",
@@ -84,7 +91,8 @@
       },
       "Damage": 21,
       "Damage (each hit)": "3-5",
-      "Damage (fully charged)": 29
+      "Damage (fully charged)": 29,
+      "Image": "http://i.imgur.com/1nsiW.gif"
     },
     {
       "Move": "D Smash",
@@ -103,7 +111,8 @@
         "Shield stun": "15",
         "Advantage": "-22"
       },
-      "Damage": 15
+      "Damage": 15,
+      "Image": "http://i.imgur.com/e52yZ.gif"
     },
     {
       "Move": "N-Air",
@@ -124,7 +133,8 @@
         "Shield stun": "11",
         "Damage": 10
       },
-      "Damage": "10 or 14"
+      "Damage": "10 or 14",
+      "Image": "http://i.imgur.com/XxVzR.gif"
     },
     {
       "Move": "U-Air",
@@ -137,7 +147,8 @@
       "Auto cancel": "<4 34>",
       "Landlag": "15",
       "Lcanceled": "7",
-      "Damage": 10
+      "Damage": 10,
+      "Image": "http://i.imgur.com/Ni8q2.gif"
     },
     {
       "Move": "B-Air",
@@ -159,7 +170,8 @@
       "Auto cancel": "<8 31>",
       "Landlag": "15",
       "Lcanceled": "7",
-      "Damage": "10 or 14"
+      "Damage": "10 or 14",
+      "Image": "http://i.imgur.com/DDKWj.gif"
     },
     {
       "Move": "D-Air",
@@ -172,7 +184,8 @@
       "Auto cancel": "<2 34>",
       "Landlag": "15",
       "Lcanceled": "7",
-      "Damage": 16
+      "Damage": 16,
+      "Image": "http://i.imgur.com/P7J25.gif"
     },
     {
       "Move": "F-Air",
@@ -186,17 +199,20 @@
       "Landlag": "15",
       "Lcanceled": "7",
       "Damage": 23,
-      "Damage (each hit)": "4-5"
+      "Damage (each hit)": "4-5",
+      "Image": "http://i.imgur.com/7FUWA.gif"
     },
     {
       "Move": "Grab",
       "Total": "94",
-      "Grab": "18-37"
+      "Grab": "18-37",
+      "Image": "http://i.imgur.com/tilH2.gif"
     },
     {
       "Move": "Running grab",
       "Total": "74",
-      "Grab": "18-27, 30-33"
+      "Grab": "18-27, 30-33",
+      "Image": "http://i.imgur.com/t8rnL.gif"
     },
     {
       "Move": "Extended grab",
@@ -249,7 +265,8 @@
         "Like Captain Falcon's moonwalk-dash-jump, if you hop out of a SWD, you keep a fair, but lesser, amount of your velocity.": null,
         "You will only automatically grab the ledge if the level slants down to the ledge, or you have lost virtually all of the speed of the SWD (obviously, you must be facing the right way), although fast-falling as soon as you've left the level can let you still SWD to ledge-hog at higher speeds.": null
       },
-      "Damage": 7
+      "Damage": 7,
+      "Image": "http://i.imgur.com/tEyKm.gif"
     },
     {
       "Move": "Charge Shot",
@@ -272,7 +289,8 @@
       "Weakest shot shield stun": "6",
       "Almost full shield stun": "20",
       "Full shot shield stun": "23",
-      "Damage": "3-25"
+      "Damage": "3-25",
+      "Image": "http://i.imgur.com/9kMn4.gif"
     },
     {
       "Move": "Super Missile",
@@ -281,7 +299,8 @@
       "Missile comes out (air)": "15\nMissile lasts 76 frames, then boom\n(self destructed missile does no\ndamage)",
       "Shield stun": "13",
       "Auto cancels upon landing": null,
-      "Damage": 12
+      "Damage": 12,
+      "Image": "http://i.imgur.com/EHaBW.gif"
     },
     {
       "Move": "Homing Missile",
@@ -290,7 +309,8 @@
       "Missile comes out (air)": "24\nMissile Lasts 111 frames, then boom\n(self destructed missile does no\ndamage)",
       "Shield stun": "7",
       "Auto cancels upon landing": null,
-      "Damage": 4
+      "Damage": 4,
+      "Image": "http://i.imgur.com/riTYo.gif"
     },
     {
       "Move": "Screw Attack",
@@ -315,7 +335,8 @@
       "Grabs edges on both sides": null,
       "Landlag": "24",
       "Landfallspeciallag": "24",
-      "Damage": "11 or 12"
+      "Damage": "11 or 12",
+      "Image": "http://i.imgur.com/ceOZL.gif"
     },
     {
       "Move": "Taunt",

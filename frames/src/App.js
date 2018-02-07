@@ -38,7 +38,7 @@ class MoveDataModal extends Component {
     let renderProperties = this.renderProperties.bind(this);
     let renderPropertyValue = this.renderPropertyValue.bind(this);
     return _.map(data, function(propValue, propName) {
-      if (propName == 'Move') {
+      if (propName == 'Move' || propName == 'Image') {
         return;
       }
       return <li key={propName}>{renderPropertyValue(propName, propValue)}</li>;
@@ -53,7 +53,10 @@ class MoveDataModal extends Component {
       <Modal.Header closeButton>
         <Modal.Title>{this.props.data.Move}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body className="move-modal-body">
+        {this.props.data['Image'] &&
+          <img className="move-image" src={this.props.data['Image']}/>
+        }
         <ul>
           {this.renderProperties(this.props.data)}
         </ul>
